@@ -85,3 +85,7 @@ header, section, nav, article, aside, footer {
 	max-width: 1124px;
 	margin: 0 auto;
 }
+
+h1 {
+	color: red;
+}
