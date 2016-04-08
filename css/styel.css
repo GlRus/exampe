@@ -1,0 +1,87 @@
+/*reset css*/
+html, body, 
+header, section, nav, article, aside, footer, 
+div, span, hr, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	border: none;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+a {
+	text-decoration:none;
+}
+fieldset,img { 
+	border:0;
+	border:none;
+}
+ol,ul {
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+:focus {
+    outline: 0;
+}
+/*END reset css*/
+
+/*style.css*/
+
+/* font-size: 130% = 13px, .7em = 7px */
+body { font-size: 63%; }
+header, section, nav, article, aside, footer {
+	display: block;
+}
+.clear {
+	clear: both;
+	float: none;
+	font-size: 2px;
+}
+*, 
+*:before, 
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.fs-i {
+	font-style: italic;
+}
+
+.fw-3 {
+	font-weight: 300;
+}
+
+.fw-4 {
+	font-weight: 400;
+}
+
+.fw-6 {
+	font-weight: 600;
+}
+
+.fw-7 {
+	font-weight: 700;
+}
+
+.content {
+	max-width: 1124px;
+	margin: 0 auto;
+}
